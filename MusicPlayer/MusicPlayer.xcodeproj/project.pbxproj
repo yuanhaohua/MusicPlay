@@ -13,6 +13,9 @@
 		1C6E4FC81CDA06EA0093F399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E4FC61CDA06EA0093F399 /* Main.storyboard */; };
 		1C6E4FCA1CDA06EA0093F399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E4FC91CDA06EA0093F399 /* Assets.xcassets */; };
 		1C6E4FCD1CDA06EA0093F399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E4FCB1CDA06EA0093F399 /* LaunchScreen.storyboard */; };
+		4A185B9A1CDA094A0029EBD5 /* DFMUpchannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A185B991CDA094A0029EBD5 /* DFMUpchannelsEntity.m */; };
+		4A185B9D1CDA097E0029EBD5 /* DFMHotChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A185B9C1CDA097E0029EBD5 /* DFMHotChannelsEntity.m */; };
+		4A185BA01CDA09A30029EBD5 /* DFMRecChannelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A185B9F1CDA09A30029EBD5 /* DFMRecChannelsEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		1C6E4FC91CDA06EA0093F399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6E4FCC1CDA06EA0093F399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6E4FCE1CDA06EB0093F399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A185B981CDA094A0029EBD5 /* DFMUpchannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMUpchannelsEntity.h; sourceTree = "<group>"; };
+		4A185B991CDA094A0029EBD5 /* DFMUpchannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMUpchannelsEntity.m; sourceTree = "<group>"; };
+		4A185B9B1CDA097E0029EBD5 /* DFMHotChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMHotChannelsEntity.h; sourceTree = "<group>"; };
+		4A185B9C1CDA097E0029EBD5 /* DFMHotChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMHotChannelsEntity.m; sourceTree = "<group>"; };
+		4A185B9E1CDA09A30029EBD5 /* DFMRecChannelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMRecChannelsEntity.h; sourceTree = "<group>"; };
+		4A185B9F1CDA09A30029EBD5 /* DFMRecChannelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMRecChannelsEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,12 @@
 		1C6E4FD61CDA077D0093F399 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4A185B981CDA094A0029EBD5 /* DFMUpchannelsEntity.h */,
+				4A185B991CDA094A0029EBD5 /* DFMUpchannelsEntity.m */,
+				4A185B9B1CDA097E0029EBD5 /* DFMHotChannelsEntity.h */,
+				4A185B9C1CDA097E0029EBD5 /* DFMHotChannelsEntity.m */,
+				4A185B9E1CDA09A30029EBD5 /* DFMRecChannelsEntity.h */,
+				4A185B9F1CDA09A30029EBD5 /* DFMRecChannelsEntity.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -182,8 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C6E4FC51CDA06EA0093F399 /* ViewController.m in Sources */,
+				4A185BA01CDA09A30029EBD5 /* DFMRecChannelsEntity.m in Sources */,
+				4A185B9A1CDA094A0029EBD5 /* DFMUpchannelsEntity.m in Sources */,
 				1C6E4FC21CDA06EA0093F399 /* AppDelegate.m in Sources */,
 				1C6E4FBF1CDA06EA0093F399 /* main.m in Sources */,
+				4A185B9D1CDA097E0029EBD5 /* DFMHotChannelsEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +352,7 @@
 				1C6E4FD31CDA06EB0093F399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
